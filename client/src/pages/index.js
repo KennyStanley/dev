@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
             <Head>
-                <title>Create Next App</title>
+                <title>home/</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
@@ -17,14 +17,15 @@ export default function Home() {
                 </h1>
 
                 <p className="mt-3 text-2xl">
-                    <code className="p-3 font-mono text-2xl rounded-md">
+                    Get started by loggin in!
+                    {/* <code className="p-3 font-mono text-2xl rounded-md">
                         explore
-                    </code>
+                    </code> */}
                 </p>
 
                 <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
                     <a
-                        href="https://nextjs.org/docs"
+                        href="#"
                         className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
                     >
                         <h3 className="text-2xl font-bold">about &rarr;</h3>
@@ -35,7 +36,7 @@ export default function Home() {
                     </a>
 
                     <a
-                        href="https://nextjs.org/learn"
+                        href="#"
                         className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
                     >
                         <h3 className="text-2xl font-bold">projects &rarr;</h3>
@@ -46,23 +47,22 @@ export default function Home() {
                     </a>
 
                     <a
-                        href="https://github.com/vercel/next.js/tree/master/examples"
+                        href="#"
                         className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
                     >
-                        <h3 className="text-2xl font-bold">tools &rarr;</h3>
+                        <h3 className="text-2xl font-bold">explore &rarr;</h3>
                         <p className="mt-4 text-xl">
-                            Custom made automations for a range of different
-                            tasks.
+                            Discover new ideas and discuss with new connections.
                         </p>
                     </a>
 
                     <a
-                        href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                        href="#"
                         className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
                     >
                         <h3 className="text-2xl font-bold">book &rarr;</h3>
                         <p className="mt-4 text-xl">
-                            Instantly check availabilities and book
+                            Check freelance availabilities and book
                             appointments.
                         </p>
                     </a>
